@@ -10,9 +10,9 @@ playstore_link: # Enter Google Play Store URL.
 presskit_download_link:
     # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon: assets/icon.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: Virtues Meditation # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: Your Daily Path to Personal Growth & Inner Calm
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
@@ -33,45 +33,33 @@ mastodon_link:
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-    - title: Virtues Meditation Overview
-      description: "Cultivate inner peace and personal growth with Virtues Meditation. Discover daily wisdom, practice mindfulness, and reflect on the four virtues of Courage, Justice, Temperance, and Wisdom. Your path to a calmer, more reflective self and enhanced mental well-being starts here. Your Daily Path to Personal Growth & Inner Calm. In a world filled with distractions, Virtues Meditation offers a sanctuary for your mind. Rooted in timeless stoic principles and ancient philosophy, our app provides a unique and powerful way to integrate mindfulness and self-reflection into your daily life. Build resilience, find clarity, and foster a more virtuous existence."
-      fontawesome_icon_name: leaf
-
     - title: Daily Virtue Meditations
-      description: "Each day, unlock a new, inspiring meditation focused on a specific virtue – Wisdom, Courage, Justice, Temperance, and more. Curated content helps you apply profound insights to modern challenges."
+      description: Each day, unlock a new, inspiring meditation focused on a specific virtue – Wisdom, Courage, Justice, Temperance, and more. Curated content helps you apply profound insights to modern challenges.
       fontawesome_icon_name: sun
 
     - title: Guided Reflection & Journaling
-      description: "Deepen your understanding with thought-provoking quotes and guided reflections. Capture your personal insights and track your personal development journey directly in your private journal. You can save entries even if they're empty, ensuring every day's meditation is logged."
+      description: Capture your personal insights and track your personal development journey directly in your private journal.
       fontawesome_icon_name: book-open
 
     - title: Intuitive Meditation Timer
-      description: "Focus your practice with a clean, distraction-free timer, designed to help you build a consistent meditation habit."
+      description: Focus your practice with a clean, distraction-free timer, designed to help you build a consistent meditation habit.
       fontawesome_icon_name: stopwatch
 
     - title: Progress & History Tracking
-      description: "Visualize your journey with a comprehensive calendar view. Easily review past meditations and journal entries from any day, seeing your growth over time."
+      description: Visualize your journey with a comprehensive calendar view. Easily review past meditations and journal entries from any day, seeing your growth over time.
       fontawesome_icon_name: calendar-alt
 
     - title: Personalized Daily Reminders
-      description: "Set custom notifications to ensure you never miss your moment of peace and reflection, making consistency effortless."
+      description: Set custom notifications to ensure you never miss your moment of peace and reflection, making consistency effortless.
       fontawesome_icon_name: bell
 
     - title: Seamless & Serene Experience
-      description: "Enjoy a beautifully designed, minimalist interface that promotes calm and focus, enhancing your mindfulness practice."
+      description: Enjoy a beautifully designed, minimalist interface that promotes calm and focus, enhancing your mindfulness practice.
       fontawesome_icon_name: magic
 
     - title: No Distractions
-      description: "No ads and no data collection."
+      description: No ads and no data collection.
       fontawesome_icon_name: eye-slash
-
-    - title: Why Choose Virtues Meditation?
-      description: "Whether you're new to mindfulness, exploring stoicism, or seeking to deepen your spiritual growth, Virtues Meditation provides the essential tools. Transform your daily routine into a powerful practice for mental well-being, fostering inner strength and lasting peace."
-      fontawesome_icon_name: question-circle
-
-    - title: Download Virtues Meditation
-      description: "Download Virtues Meditation today and begin your journey to a more purposeful and serene life."
-      fontawesome_icon_name: download
 
 # Theme Settings
 topbar_color: "#000000"
